@@ -1,0 +1,18 @@
+
+
+#### Project
+_site
+
+#### OS
+## Linux
+.*
+!.gitignore
+*~
+
+
+#### Editors
+## VIm
+*.s[a-w][a-z]
+*.un~
+Session.vim
+*~
