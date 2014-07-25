@@ -1,10 +1,12 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Capítulo ACM
+email: acm@uc.cl
+username: acm-uc
+description: "Somos el capítulo estudiantil de la ACM de la Pontificia Universidad Católica de Chile.
+  Nuestro objetivo es promover la Computación"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://acm-uc.github.io"
 
 # Build settings
+permalink: "/:categories/:short_year/:i_month/:i_day/:title"
 markdown: kramdown
-permalink: pretty

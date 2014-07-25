@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: job
+title:  "Random job!"
 date:   2014-07-22 14:58:10
-categories: jekyll update
+categories: jobs
+tags: AI planning
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

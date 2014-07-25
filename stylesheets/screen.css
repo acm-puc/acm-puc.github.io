@@ -1,0 +1,119 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+/** Reset **/
+/* line 11, ../_sass/screen.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  color: #fff;
+}
+
+/* line 16, ../_sass/screen.scss */
+html, body {
+  height: 100%;
+  background-color: #222222;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/** Background **/
+/** Theme Styles **/
+/* line 27, ../_sass/screen.scss */
+body {
+  background-attachment: fixed;
+  background-image: url("../images/cloudy-sea.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+/* line 34, ../_sass/screen.scss */
+.boostrap-row-fix {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/** Transparency **/
+/* line 43, ../_sass/screen.scss */
+.dark-transparency {
+  background: rgba(21, 21, 21, 0.7);
+}
+
+/* line 46, ../_sass/screen.scss */
+.medium-transparency {
+  background: rgba(21, 21, 21, 0.5);
+}
+
+/* line 49, ../_sass/screen.scss */
+.light-transparency {
+  background: rgba(21, 21, 21, 0.5);
+}
+
+/* line 54, ../_sass/screen.scss */
+.round5 {
+  /*I have the feeling that this is defined somewhere else*/
+  border-radius: 0.5em;
+}
+
+/* line 59, ../_sass/screen.scss */
+.header-padding {
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+}
+
+/* line 64, ../_sass/screen.scss */
+#title {
+  margin: 0;
+  color: #fff;
+  font-size: 3.3em;
+  font-weight: 700;
+  text-shadow: #111 0 0 10px;
+}
+
+/* line 73, ../_sass/screen.scss */
+.site {
+  text-align: justify;
+}
+
+/* line 76, ../_sass/screen.scss */
+.left {
+  text-align: left;
+}
+
+/* line 79, ../_sass/screen.scss */
+.right {
+  text-align: right;
+}
+
+/* line 82, ../_sass/screen.scss */
+.no-h-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 86, ../_sass/screen.scss */
+.no-v-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 90, ../_sass/screen.scss */
+.padding-v-1em {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 94, ../_sass/screen.scss */
+.main-borders {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* line 101, ../_sass/screen.scss */
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}

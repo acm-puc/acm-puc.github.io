@@ -1,0 +1,8 @@
+<ul class="posts news">
+  {% for item in site.categories[include.c] %}
+    <li>
+      <span class="post-date">{{ item.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

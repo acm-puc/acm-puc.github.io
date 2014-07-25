@@ -4,16 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1><a href="{{ '/news' | prepend: site.baseurl }}">Noticias</a></h1>
+  {% include list.html c='news'%}
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+
+  <h1><a href="{{ '/jobs' | prepend: site.baseurl }}">Ofertas de Trabajo</a></h1>
+  {% include list.html c='jobs'%}
+
+
+  <h1><a href="{{ '/events' | prepend: site.baseurl }}">Eventos</a></h1>
+  {% include list.html c='events'%}
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

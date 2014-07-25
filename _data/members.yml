@@ -1,0 +1,50 @@
+- name: "Dietrich Daroch"
+  email: "dietr1ch not-at acm"
+  github: "dietr1ch"
+  position: "Chair"
+
+- name: "Loreto Prieto"
+  email: "mtprieto not-at uc"
+  github: ""
+  position: "ViceChair"
+
+- name: "Adrián Soto"
+  email: "assoto not-at uc"
+  github: ""
+  position: "Secretary"
+
+- name: "Carlos Molina"
+  email: "camolin3 not-at opmbx"
+  github: ""
+  position: "Treasurer"
+
+- name: "Martín Muñoz"
+  email: "mmunos not-at uc"
+  github: ""
+  position: "Member"
+
+- name: "Francisco Maturana"
+  email: "fjmaturana not-at uc"
+  github: ""
+  position: "Member"
+
+- name: "Alejandro Pimentel"
+  email: "apimentel not-at uc"
+  github: ""
+  position: "Member"
+
+- name: "Katherine Páez Ramos"
+  email: "kvpaez not-at uc"
+  github: ""
+  position: "Member"
+
+- name: "Jürgen Heysen"
+  email: "jdheysen not-at uc"
+  github: ""
+  position: "Member"
+
+- name: "Jaime Castro"
+  email: "jecastro1 not-at uc"
+  github: ""
+  position: "Member"
+
