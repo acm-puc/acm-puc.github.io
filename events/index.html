@@ -1,12 +1,14 @@
 ---
 layout: default
+title: Eventos
 ---
 
-<div class="home">
+<div>
 
-  <h1>Eventos</h1>
-  {% include list.html c='events'%}
+  <h1>{{ page.title }}</h1>
+  {% include list.html category='events' %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe"><a href="{{ "/events/atom.xml" | prepend: site.baseurl }}">ATOM</a></p>
+  <p class="rss-subscribe"><a href="{{ "/events/rss.xml"  | prepend: site.baseurl }}">RSS</a></p>
 
 </div>

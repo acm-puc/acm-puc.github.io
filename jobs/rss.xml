@@ -1,0 +1,5 @@
+---
+layout: nil
+---
+
+{% include rss-category.xml category='jobs' limit=10 %}

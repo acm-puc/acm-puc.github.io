@@ -1,12 +1,14 @@
 ---
 layout: default
+title: Trabajos
 ---
 
-<div class="home">
+<div>
 
-  <h1>Trabajos</h1>
-  {% include list.html c='jobs'%}
+  <h1>{{ page.title }}</h1>
+  {% include list.html category='jobs' %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe"><a href="{{ "/jobs/atom.xml" | prepend: site.baseurl }}">ATOM</a></p>
+  <p class="rss-subscribe"><a href="{{ "/jobs/rss.xml"  | prepend: site.baseurl }}">RSS</a></p>
 
 </div>

@@ -1,12 +1,14 @@
 ---
 layout: default
+title: Noticias
 ---
 
-<div class="home">
+<div>
 
-  <h1>Noticias</h1>
-  {% include list.html c='news'%}
+  <h1>{{ page.title }}</h1>
+  {% include list.html category='news' %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe"><a href="{{ "/news/atom.xml" | prepend: site.baseurl }}">ATOM</a></p>
+  <p class="rss-subscribe"><a href="{{ "/news/rss.xml"  | prepend: site.baseurl }}">RSS</a></p>
 
 </div>

@@ -5,17 +5,19 @@ layout: default
 <div class="home">
 
   <h1><a href="{{ '/news' | prepend: site.baseurl }}">Noticias</a></h1>
-  {% include list.html c='news'%}
+  {% include list.html category='news' limit=5 %}
 
 
   <h1><a href="{{ '/jobs' | prepend: site.baseurl }}">Ofertas de Trabajo</a></h1>
-  {% include list.html c='jobs'%}
+  {% include list.html category='jobs' limit=5 %}
 
 
   <h1><a href="{{ '/events' | prepend: site.baseurl }}">Eventos</a></h1>
-  {% include list.html c='events'%}
+  {% include list.html category='events' limit=5 %}
 
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+  <p class="rss-subscribe"><a href="{{ "/atom.xml" | prepend: site.baseurl }}">ATOM</a></p>
+  <p class="rss-subscribe"><a href="{{ "/rss.xml"  | prepend: site.baseurl }}">RSS</a></p>
 
 </div>

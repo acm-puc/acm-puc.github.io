@@ -1,0 +1,109 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*@import "compass/reset";*/
+/*@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');*/
+/** Reset **/
+/* line 18, ../_sass/screen.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  color: #111111;
+}
+
+/* line 23, ../_sass/screen.scss */
+body {
+  /*font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/** Background **/
+/* line 32, ../_sass/screen.scss */
+body {
+  height: 100%;
+  color: #111111;
+  background-color: #eeeeee;
+}
+
+/*
+body {
+  background: url('/assets/64531/green_suburb.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+/* line 49, ../_sass/screen.scss */
+iframe {
+  border: 0;
+  background-color: #bbbbbb;
+}
+
+/* line 56, ../_sass/screen.scss */
+.bootstrap-row-fix {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 62, ../_sass/screen.scss */
+.gcal {
+  width: 100%;
+  height: 40em;
+}
+
+/** Transparency **/
+/* line 70, ../_sass/screen.scss */
+.heavy-dim {
+  background: rgba(20, 20, 20, 0.7);
+}
+
+/* line 73, ../_sass/screen.scss */
+.medium-dim {
+  background: rgba(20, 20, 20, 0.5);
+}
+
+/* line 76, ../_sass/screen.scss */
+.light-dim {
+  background: rgba(20, 20, 20, 0.3);
+}
+
+/* line 82, ../_sass/screen.scss */
+.site {
+  text-align: justify;
+}
+
+/* line 85, ../_sass/screen.scss */
+.no-h-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 89, ../_sass/screen.scss */
+.no-v-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 93, ../_sass/screen.scss */
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* line 98, ../_sass/screen.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 101, ../_sass/screen.scss */
+footer {
+  /*display: block;*/
+  /*position: absolute;*/
+  /*box-sizing: border-box;*/
+  bottom: 0;
+  width: 100%;
+  margin-top: 2em;
+  background-color: #eeeeee;
+  height: 5em;
+}

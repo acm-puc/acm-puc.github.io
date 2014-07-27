@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title }}</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/atom.xml" rel="self" type="application/rss+xml" />
+    <description>{{ site.description}}</description>
+    <language>{{ site.language}}</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for item in include.set limit: include.limit %}
+      <item>
+        <title>{{ item.title }}</title>
+        <link>{{ item.url | prepend: site.url }}</link>
+        <pubDate>{{ item.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <author>{{ item.email }} {% if item.author %}({{ item.author }}){% endif %}</author>
+        <guid>{{ item.id }}</guid>
+        <description>{{ item.content | xml_escape }}</description>
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>

@@ -1,8 +1,18 @@
-<ul class="posts news">
-  {% for item in site.categories[include.c] %}
-    <li>
-      <span class="post-date">{{ item.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+{% if site.categories[include.category].size > 0 %}
+  <ul class="posts">
+    {% for item in site.categories[include.category] limit: include.limit %}
+      <li>
+        <span class="post-date">{{ item.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+
+    {% if site.categories[include.category].size > include.limit %}
+      <li>
+        <p>&hellip;</p>
+      </li>
+    {% endif %}
+  </ul>
+{% else %}
+  <p>Aún no hay entradas =(</p>
+{% endif %}

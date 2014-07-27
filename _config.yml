@@ -6,6 +6,7 @@ description: "Somos el capítulo estudiantil de la ACM de la Pontificia Universi
   Nuestro objetivo es promover la Computación"
 baseurl: ""
 url: "http://acm-uc.github.io"
+language: "es-cl"
 
 # Build settings
 permalink: "/:categories/:short_year/:i_month/:i_day/:title"

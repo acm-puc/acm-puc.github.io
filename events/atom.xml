@@ -1,0 +1,5 @@
+---
+layout: nil
+---
+
+{% include atom-category.xml category='events' limit=10 %}
