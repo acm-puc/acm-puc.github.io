@@ -1,7 +1,7 @@
 PUC Chile ACM’s Student Chapter
 ===============================
 
-This site is available on [acm-uc.github.io][Site]
+This site is available on [acm-puc.github.io][Site]
 
 
 Development
@@ -31,5 +31,5 @@ It’s free :P
 
 
 
-[Site]:http://acm-uc.github.io
+[Site]:http://acm-puc.github.io
 

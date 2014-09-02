@@ -1,11 +1,11 @@
 # Site settings
 title: Capítulo ACM
-email: acm@uc.cl
-username: acm-uc
+email: acm@puc.cl
+username: acm-puc
 description: "Somos el capítulo estudiantil de la ACM de la Pontificia Universidad Católica de Chile.
   Nuestro objetivo es promover la Computación"
 baseurl: ""
-url: "http://acm-uc.github.io"
+url: "http://acm-puc.github.io"
 language: "es-cl"
 
 # Build settings
