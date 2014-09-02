@@ -1,5 +1,4 @@
 ---
-layout: nil
 ---
 
 {% include atom-category.xml category='news' limit=10 %}

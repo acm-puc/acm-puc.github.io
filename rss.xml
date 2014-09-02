@@ -1,5 +1,4 @@
 ---
-layout: nil
 ---
 
 {% include rss.xml set=site.posts limit=10 %}

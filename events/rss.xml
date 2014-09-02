@@ -1,5 +1,4 @@
 ---
-layout: nil
 ---
 
 {% include rss-category.xml category='events' limit=10 %}
